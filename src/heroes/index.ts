@@ -2,6 +2,7 @@ export * from './components/HeroCard';
 export * from './components/HeroList';
 export * from './helpers/getHeroById';
 export * from './helpers/getHoroesByPublisher';
+export * from './helpers/getHeroesByName';
 export * from "./pages/DcPage";
 export * from "./pages/HeroPage";
 export * from "./pages/MarvelPage";
