@@ -1,5 +1,4 @@
-import { HeroList } from "../components/HeroList"
-import { Publisher } from '../helpers/getHoroesByPublisher';
+import { HeroList } from ".."
 
 export const DcPage = () => {
   return (

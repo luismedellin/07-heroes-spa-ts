@@ -1,3 +1,5 @@
+export * from './components/HeroCard';
+export * from './components/HeroList';
 export * from './helpers/getHoroesByPublisher';
 export * from "./pages/DcPage";
 export * from "./pages/HeroPage";
