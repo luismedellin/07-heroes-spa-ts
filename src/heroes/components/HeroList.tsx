@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import { HeroCard, Publisher, getHoroesByPublisher } from "..";
 
 interface Props {
@@ -5,7 +6,7 @@ interface Props {
 }
 
 export const HeroList = ({ publisher }: Props) => {
-  const heroes = getHoroesByPublisher(publisher);
+  const heroes = useMemo(()=> getHoroesByPublisher(publisher), [publisher]);
 
   return (
     <div className="row rows-cols-1 row-cols-md-3 g-3">
