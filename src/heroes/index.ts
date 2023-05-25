@@ -1,3 +1,4 @@
+export * from './helpers/getHoroesByPublisher';
 export * from "./pages/DcPage";
 export * from "./pages/HeroPage";
 export * from "./pages/MarvelPage";
